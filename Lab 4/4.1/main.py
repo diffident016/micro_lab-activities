@@ -43,9 +43,7 @@ while True:
   request = str(request)
   led_on = request.find('/?led=on')
   led_off = request.find('/?led=off')
-  
-  print(led_on)
-  
+   
   if led_on == 6:
     ledBlue.value(1)
   if led_off == 6:
